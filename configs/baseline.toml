@@ -1,0 +1,27 @@
+# Default SLO profile for CPU Qwen3-0.6B Q4 — tune for your machine.
+
+[server]
+url = "http://127.0.0.1:8080/v1/chat/completions"
+# Used by scripts/start-server.sh via configs/baseline.env (keep in sync)
+
+[prompt]
+text = "Say hello in one short sentence."
+max_tokens = 32
+
+[load]
+# Closed loop: always N in flight
+concurrency = 2
+waves = 3
+warmup_waves = 1
+
+[slo]
+# Fail prove_slo.py if either percentile exceeds these
+ttft_p95_ms = 200.0
+tpot_p95_ms = 40.0
+
+[kv]
+# Qwen3-0.6B GGUF facts (f16 KV) — see docs/kv.md
+n_layer = 28
+n_kv_head = 8
+head_dim = 128
+elem_bytes = 2

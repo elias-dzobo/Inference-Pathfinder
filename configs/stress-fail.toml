@@ -1,0 +1,19 @@
+# Intentionally harsh load — expect prove_slo to FAIL against baseline thresholds.
+# Demo: python3 harness/prove_slo.py --config configs/stress-fail.toml
+
+[server]
+url = "http://127.0.0.1:8080/v1/chat/completions"
+
+[prompt]
+text = "Say hello in one short sentence."
+max_tokens = 32
+
+[load]
+concurrency = 8
+waves = 3
+warmup_waves = 1
+
+[slo]
+# Same bar as baseline — high concurrency should miss it
+ttft_p95_ms = 200.0
+tpot_p95_ms = 40.0

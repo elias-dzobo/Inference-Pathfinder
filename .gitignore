@@ -1,0 +1,9 @@
+configs/baseline.env
+__pycache__/
+*.pyc
+.Python
+.venv/
+venv/
+.DS_Store
+*.gguf
+reports/local-*.md

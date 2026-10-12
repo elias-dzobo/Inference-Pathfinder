@@ -1,0 +1,22 @@
+You are helping with a measurement experiment. Ignore the content quality; we only need a long prompt.
+
+Context (repeated for length):
+The request path runs client to HTTP server to engine to device. Prefill reads the prompt and writes the KV cache. Decode emits one token at a time while rereading weights. TTFT is time to first token. TPOT is time per output token after the first. When concurrency rises without more CPU, requests share a thread pool and wait together. When threads drop from four to two on a single request, decode tok/s roughly halves on this machine.
+
+The request path runs client to HTTP server to engine to device. Prefill reads the prompt and writes the KV cache. Decode emits one token at a time while rereading weights. TTFT is time to first token. TPOT is time per output token after the first. When concurrency rises without more CPU, requests share a thread pool and wait together. When threads drop from four to two on a single request, decode tok/s roughly halves on this machine.
+
+The request path runs client to HTTP server to engine to device. Prefill reads the prompt and writes the KV cache. Decode emits one token at a time while rereading weights. TTFT is time to first token. TPOT is time per output token after the first. When concurrency rises without more CPU, requests share a thread pool and wait together. When threads drop from four to two on a single request, decode tok/s roughly halves on this machine.
+
+The request path runs client to HTTP server to engine to device. Prefill reads the prompt and writes the KV cache. Decode emits one token at a time while rereading weights. TTFT is time to first token. TPOT is time per output token after the first. When concurrency rises without more CPU, requests share a thread pool and wait together. When threads drop from four to two on a single request, decode tok/s roughly halves on this machine.
+
+The request path runs client to HTTP server to engine to device. Prefill reads the prompt and writes the KV cache. Decode emits one token at a time while rereading weights. TTFT is time to first token. TPOT is time per output token after the first. When concurrency rises without more CPU, requests share a thread pool and wait together. When threads drop from four to two on a single request, decode tok/s roughly halves on this machine.
+
+The request path runs client to HTTP server to engine to device. Prefill reads the prompt and writes the KV cache. Decode emits one token at a time while rereading weights. TTFT is time to first token. TPOT is time per output token after the first. When concurrency rises without more CPU, requests share a thread pool and wait together. When threads drop from four to two on a single request, decode tok/s roughly halves on this machine.
+
+The request path runs client to HTTP server to engine to device. Prefill reads the prompt and writes the KV cache. Decode emits one token at a time while rereading weights. TTFT is time to first token. TPOT is time per output token after the first. When concurrency rises without more CPU, requests share a thread pool and wait together. When threads drop from four to two on a single request, decode tok/s roughly halves on this machine.
+
+The request path runs client to HTTP server to engine to device. Prefill reads the prompt and writes the KV cache. Decode emits one token at a time while rereading weights. TTFT is time to first token. TPOT is time per output token after the first. When concurrency rises without more CPU, requests share a thread pool and wait together. When threads drop from four to two on a single request, decode tok/s roughly halves on this machine.
+
+End of context.
+
+Task: Reply with exactly one short sentence that says hello. Do not summarize the context.
